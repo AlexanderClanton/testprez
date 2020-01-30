@@ -36,7 +36,7 @@ public abstract class Question
     {
     	// This outputs constructor being run
     	//jh
-    	LOGGER.info("Hello Mr.L: "+LOGGER.getName());
+    	LOGGER.info("Hello!: "+LOGGER.getName());
     	//ConsoleMethods.println("Question class constructor");
     	 
     	 LOGGER.warning("Can cause ArrayIndexOutOfBoundsException");
@@ -183,7 +183,7 @@ public abstract class Question
     {
         return new String("Results: " + this.correct + " of " + this.questions);
     }
-
+    //
     
     /**
      * An example of a method - replace this comment with your own
